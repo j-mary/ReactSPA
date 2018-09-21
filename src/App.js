@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import "./App.css";
+
 // COMPONENTS
 import Header from './components/layout/Header';
 import Posts from './components/posts/Posts';

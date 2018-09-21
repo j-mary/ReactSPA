@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = props => {
   const { branding } = props;
   return (
-    <div className="nav navbar navbar-expand-sm navbar-dark bg-danger mb-3 py-0">
+    <div className="nav navbar navbar-expand-sm navbar-dark fixed-top bg-danger mb-3 py-1">
       <div className="container">
         <Link to="/" className="navbar-brand">
           {branding}
